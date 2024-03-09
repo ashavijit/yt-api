@@ -20,7 +20,7 @@ resource "aws_security_group" "fampay-security-group" {
   }
 }
 
-resource "aws_security_group_rule" "custom-ssh" {
+resource "aws_security_group_rule" "custom-ssh-ashavijit" {
   type        = "ingress"
   from_port   = 22
   to_port     = 22
