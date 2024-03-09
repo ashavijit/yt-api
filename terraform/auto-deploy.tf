@@ -42,8 +42,12 @@ provisioner "remote-exec" {
   inline = [
     "sudo yum update -y",
     "sudo yum install -y git",
-    "git clone https://github.com/yourusername/your-repo.git",
-    
+    "git clone https://github.com/ashavijit/yt-api",
+    "cd yt-api",
+    "sudo yum install -y python3",
+    "sudo yum install -y python3-pip",
+    "pip3 install -r requirements.txt",
+    "sudo python3 app.py"
   ]
 
   connection {

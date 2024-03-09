@@ -10,8 +10,8 @@ This project aims to create an API for fetching the latest YouTube videos based 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/youtube-video-api.git
-cd youtube-video-api
+git clone https://github.com/ashavijit/yt-api
+cd yt-api
 ```
 
 2. Create a virtual environment and install dependencies:
@@ -71,6 +71,38 @@ docker build -t youtube-video-api .
 ```bash
 docker run -p 8000:8000 youtube-video-api
 ```
+
+## Terraform Instructions
+
+1. Install Terraform from [here](https://www.terraform.io/downloads.html).
+2. Navigate to the `terraform` directory:
+
+```bash
+cd terraform
+```
+
+3. Initialize the Terraform working directory:
+
+```bash
+terraform init
+```
+
+4. Create a `terraform.tfvars` file in the `terraform` directory and add the following variables:
+
+   ```plaintext
+   project = "your_project_id"
+   region = "your_region"
+   ```
+
+5. Apply the Terraform configuration:
+
+  ```bash
+  terraform apply
+  ```
+
+6. Access the API at `http://<EXTERNAL_IP>:8000/api/videos/`.
+
+
 
 3. Access the API at `http://localhost:8000/api/videos/`.
 
