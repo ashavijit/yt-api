@@ -113,3 +113,7 @@ Feel free to contribute to this project by submitting bug reports, feature reque
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Time Consumption
+
+[![wakatime](https://wakatime.com/badge/user/55bc4aff-eab9-49ad-aa58-a380e2104dc0/project/9d937300-46ab-4785-b193-f7e8ac3ba4f5.svg)](https://wakatime.com/badge/user/55bc4aff-eab9-49ad-aa58-a380e2104dc0/project/9d937300-46ab-4785-b193-f7e8ac3ba4f5)
